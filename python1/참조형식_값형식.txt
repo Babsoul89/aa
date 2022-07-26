@@ -1,0 +1,25 @@
+*값 형식(Value Type): C, C++, Java, C#언어에서 제공(int, float, bool)
+단순형식들을 제공
+Call By Value, Pass By Value 
+int x = 5; 
+int y = x; (x가 가지고 있는 값을 복사)
+y = 6;
+stack(간단한 변수를 저장하는 메모리 공간)
+------
+x(5)
+y(6)
+------
+
+*참조 형식(Reference Type) : 클래스 기반으로 객체를 생성해서 사용
+객체기반의 형식(특정타입을 정의해서 사용)
+Call By Reference, Pass By Reference 
+stack		heap(연속된 메모리 공간, 관리가 필요한 경우)
+-----		-----
+demo --------------->새로운 객체 
+(원래이름)
+demoB-------------->
+(별명)
+-----		-----
+DemoClass demo = new DemoClass();
+DemoClass demoB = demo; 
+
